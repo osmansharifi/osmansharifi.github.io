@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Osman Sharifi</title>
+  <style>
+    /* Basic styling for the navigation bar */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 28px;
+    }
+    nav {
+      background-color: #444;
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center align the items horizontally */
+    }
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    /* Hide content sections by default */
+    .tab-content {
+      display: none;
+      padding: 20px;
+    }
+    /* Show the selected content section */
+    .active {
+      display: block;
+    }
+  
+    /* Style the image on the Home tab */
+    .home-image {
+      float: left;
+      width: 200px;
+      margin-right: 20px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    /* Clear floating elements after the image */
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Format second level header */
+    h2 {
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 20px; /* Increase spacing below the h2 elements */
+    }
+    
+    /* Format third level header */
+    h3 {
+      font-size: 30px;
+      text-decoration: underline;
+      margin-bottom: 15px; /* Increase spacing below the h3 elements */
+    }
+    
+    /* Create custom list style for indented lists */
+    .custom-list {
+      list-style-type: none;
+      padding-left: 20px; /* Adjust the value to change the indentation */
+    }    
+      
+    .custom-list li:before {
+      content: "\2022"; /* Unicode bullet point (•) */
+      margin-right: 15px; /* Add spacing between the bullet point and the list item */
+      margin-bottom: 15px; /* Increase spacing below each list item */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Osman Sharifi</h1>
+  </header>
+  <nav>
+    <a href="#home" class="tab-link" onclick="showTab(event, 'home')">Home</a>
+    <a href="#cv" class="tab-link" onclick="showTab(event, 'cv')">CV</a>
+  </nav>
+  <!-- Content sections -->
+  <div id="home" class="tab-content">
+    <h2>Welcome!</h2>
+    <div class="clearfix">
+      <p>My name is Osman Sharifi.</p>
+    </div>
+  </div>
+  <div id="cv" class="tab-content">
+    <h2>Curriculum Vitae</h2>
+      <h3>Education</h3>
+        <p><strong>Doctor of Philosophy in BMCDB</strong> <em>(In Progress, 2025)</em>: University of California, Davis; Davis, California; GPA: X.XX</p>
+      <h3>Publications</h3>
+        <p><strong>2021</strong></p>
+      <h3>Fellowships and Scholarships</h3>
+      <h3>Conference Abstracts, Posters, and Presentations</h3>
+        <p><strong>2023</strong></p>
+		  <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Integration of single-nuclear RNA-seq and spatial transcriptomic analysis of differentially expressed genes in a Rett Syndrome mouse model. Poster presented by V. Haghani at the Conceptual Power of Single-Cell Biology Symposium 2023.</p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Defining the role of MeCP2e1 Rett Syndrome Symptom Progression. Haghani V. invited to give a 10-minute oral presentation at the MESA Undergraduate Research Scholars Program Oral Presentation Workshop 2023.</p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Defining the role of MeCP2e1 Rett Syndrome Symptom Progression. Poster presented and flash talk given by V. Haghani at the International Rett Syndrome Foundation Rett Syndrome Scientific Meeting 2023.</p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Defining the role of MeCP2e1 Rett Syndrome Symptom Progression. Poster presented by V. Haghani at the Bay Area Chromatin Club Symposium 2023.</p>
+        <p><strong>2022</strong></p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Defining the role of MeCP2e1 Rett Syndrome Symptom Progression. Poster presented by V. Haghani at the UC Davis Human Genomics Symposium 2022 and received a $25 prize for winning the poster contest.</p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Defining the role of MeCP2e1 Rett Syndrome Symptom Progression. Poster presented by V. Haghani at the UC Davis Genome Center Halloween Symposium 2022.</p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>,  Korf I.F., LaSalle J.M. Clarifying the role of MeCP2 in the Timing of Symptom Progression in Rett Syndrome. Abstract submitted, poster presented, and 10-minute oral talk given by V. Haghani at the 6th Annual Biomedical Research Graduate Student Symposium 2022.</p>
+          <p><strong><u>Sharifi O.</u></strong>, Yasui D.H., Korf I.F., Haghani V., Hakam S., Johansen N., Fraga K., LaSalle J.M. Longitudinal cortical snRNA-seq reveals sexually dimorphic cellular trajectories of disease progression in a mouse model of Rett Syndrome. Poster presented by O. Sharifi at the Developmental Origins of Health and Disease (DOHaD) World Congress 2022.</p>
+        <p><strong>2021</strong></p>
+          <p>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. Elucidating the role of MeCP2 in the timing of symptom progression in Rett Syndrome. Poster presented by V. Haghani at the UC Davis Human Genomics Symposium 2021 and received a $25 prize for winning the poster contest.</p>
+          <p></a>Haghani V., Yasui D.H., <strong><u>Sharifi O.</u></strong>, Korf I.F., LaSalle J.M. <a href="https://github.com/vhaghani26/rocketchip">Rocketchip</a>: A Comprehensive bioinformatics workflow for ChIP-seq data analysis. Poster presented by V. Haghani at the 2021 CSHL Genome Informatics Meeting in November. Funded by JXTX Foundation Genome Informatics Scholarship.</p>
+      <h3>Research Experience</h3>
+        <p></a><strong>Graduate Student Researcher</u></strong> | <a href="https://mmi-lab.ucdavis.edu/">LaSalle Lab</a> and <a href="https://korflab.github.io/">Korf Lab</a> at UC Davis | Davis, CA | March 20XX - Present</p>
+          <ul class="custom-list">
+              <li>Studying the molecular mechanisms of Rett Syndrome in the LaSalle Lab (primary PI) using snRNA-seq and spatial transcriptomics</li>
+          </ul>
+      <h3>Professional Workshops</h3>
+      <h3>Teaching Experience</h3>
+      <h3>Mentoring Experience</h3>
+      <h3>Other Experiences and Affiliations</h3>
+      <h3>Projects</h3>
+      <h3>Qualifications/Skills</h3>
+        <p>Intermediate/Advanced bioinformatics experience (Python, R, GitHub, Conda)</p>
+        <p>Experience using a high-performance computing environments</p>
+        <p>Strong oral and written communication skills</p>
+        <p>Ability to prioritize and perform tasks with minimal supervision</p>
+      <h3>Languages</h3>
+        <p>English (fluent speaking, reading, and writing)</p>
+      <h3>Professional Affiliations</h3>
+      <h3>Honors and Awards</h3>
+      <h3>Links</h3>
+        <u1>
+          <li><p><a href="https://github.com/osmansharifi">GitHub</a></p></li>
+        </u1>
+  </div>
+  <script>
+  	// Function to show the selected tab and its content
+  	function showTab(evt, tabName) {
+  		var i, tabContent, tabLinks;
+  		tabContent = document.getElementsByClassName('tab-content');
+  		for (i = 0; i < tabContent.length; i++) {
+  			tabContent[i].style.display = 'none';
+  		}
+  		tabLinks = document.getElementsByClassName('tab-link');
+  		for (i = 0; i < tabLinks.length; i++) {
+  			tabLinks[i].classList.remove('active');
+  		}
+  		document.getElementById(tabName).style.display = 'block';
+  		evt.currentTarget.classList.add('active');
+  	}
+  
+  	// Automatically show the correct tab based on the URL hash fragment
+  	document.addEventListener("DOMContentLoaded", function () {
+  		var currentHash = window.location.hash;
+  		if (currentHash) {
+  			showTab({ currentTarget: document.querySelector('.tab-link[href="' + currentHash + '"]') }, currentHash.substr(1));
+  		} else {
+  			// Default to showing the "Home" tab
+  			document.getElementById("home").style.display = "block";
+  		}
+  	});
+  </script>
+</body>
+</html>
